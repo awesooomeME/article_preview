@@ -7,11 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        very_dark_grayish_blue: 'hsl(217, 19%, 35%)',
+        desaturated_dark_blue: 'hsl(214, 17%, 51%)',
+        grayish_blue: 'hsl(212, 23%, 69%)',
+        light_grayish_blue: 'hsl(210, 46%, 95%)'
       },
+      fontWeight: {
+        normal: '500',
+        heavy: '700'
+      },
+      screens: {
+        desktop: '650px'
+      },
+      backgroundImage: {
+        'share_icon': "url('../public/images/icon-share.svg')",
+        'fb_icon': "url('../public/images/icon-facebook.svg')",
+        'pinterest_icon': "url('../public/images/icon-pinterest.svg')",
+        'twitter_icon': "url('../public/images/icon-twitter.svg')",
+      }
     },
   },
   plugins: [],
